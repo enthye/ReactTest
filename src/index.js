@@ -6,11 +6,6 @@ import {Home} from "./components/home"
 
 class App extends Component {
     render() {
-        var user = {
-            name: "A name",
-            hobbies: ["Sports"]
-        };
-
         return (
             <div className="container">
             
@@ -22,8 +17,7 @@ class App extends Component {
             
             <div className="row">
                 <div className="col-xs-10 col-xs-offset-1">
-                    <Home name={"Alt Name"} age={12} user={user}>
-                        <p>THIS is NOT a PaRaGrApH?!</p>
+                    <Home name={"Alt Name"} initialAge={12}>
                     </Home>
                 </div>  
             </div>
