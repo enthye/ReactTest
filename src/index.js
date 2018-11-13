@@ -11,7 +11,7 @@ class App extends Component {
             
             <div className="row">
                 <div className="col-xs-10 col-xs-offset-1">
-                    <Header/>
+                    <Header homeLink="Home"/>
                 </div>  
             </div>
             
