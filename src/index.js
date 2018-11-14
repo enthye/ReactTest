@@ -38,7 +38,8 @@ class App extends Component {
                         name={"Alt Name"} 
                         initialAge={12} 
                         greet={this.onGreet}
-                        changeLink={(newName) => this.onChangeLinkName(newName)}>
+                        changeLink={(newName) => this.onChangeLinkName(newName)}
+                        initialLinkName={this.state.homeLink}>
                     </Home>
                 </div>  
             </div>
